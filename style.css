@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", serif;
+}
+#x{
+  display: none;
+}
+.container button{
+  cursor: pointer;
+}
+.container{
+  width: 1440px;  
+}
+.mob-img{
+  display: none;
+}
+.top-bg{
+  position: relative;
+  width: 100%;
+}
+.logo{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+.top-buttons button{
+  position: absolute;
+font-size: 17px;
+font-weight: 300;
+color: white;
+background-color: rgba(0, 0, 0, 0);
+border: 0px solid;
+top: 55px;
+left: 950px;
+}
+.top-buttons button:hover{
+  border-bottom: 1px solid white;
+  color: rgb(232, 230, 247);
+}
+#careers{
+margin-left: 70px;
+}
+#events{
+  margin-left: 150px;
+  }
+  #products{
+    margin-left: 220px;
+    }
+    #support{
+      margin-left: 300px;
+      }
+h2{
+  width: 650px;
+  position: absolute;
+  font-size: 70px;
+  font-weight: 200;
+  color: white;
+  top: 250px;
+  left: 150px;
+  padding: 30px;
+  border: 1px solid white;
+}
+.wrapper-middle{
+  margin: 90px 170px 90px 170px;
+}
+.wrapper-middle img{
+  position: relative;
+}
+.middle-text{
+position: absolute;
+width: 540px;
+padding: 100px;
+top: 980px;
+left: 710px;
+background-color: rgb(253, 253, 253);
+}
+.middle-text h1{
+  font-size: 40px;
+  font-weight: 300;
+}
+.middle-text p{
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.our-creations{
+margin: 230px 170px 130px 170px; 
+align-items: center;
+display: flex;
+
+}
+.our-creations h1{
+  font-size: 40px;
+  font-weight: 300; 
+}
+.our-creations button{
+margin-left: 600px;
+font-size: 16px;
+background-color: rgba(0, 0, 0, 0);
+padding: 10px 40px 5px 40px;
+margin-top: -5px;
+}
+.creations{
+  margin: 130px 170px 130px 170px; 
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+}
+.creations img{
+margin: -4px;  
+}
+.creations h3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: -90px;
+  margin-left: 30px;
+  pointer-events: none;
+}
+.earth h3{
+width: 70px;
+}
+.arcade h3{
+  width: 70px;
+  }
+  .soccer h3{
+    width: 140px;
+    }
+    .grid h3{
+      width: 70px;
+      }
+      .above h3{
+        width: 160px;
+        }
+        .borealis h3{
+          width: 70px;
+          }
+          .curiosity h3{
+            width: 70px;
+            }
+            .fisheye h3{
+              width: 140px;
+              }
+.shadow{
+  position: absolute;
+  box-shadow: inset 0px -100px 100px 0px rgba(0, 0, 0, 0.774);
+  width: 253px;
+  height: 450px;
+  pointer-events: none;
+}
+.creations :hover{
+  filter: grayscale(20%); 
+  transition: 0.1s ease-in-out;
+}
+.footer{
+width: 1440px;
+background-color: black;
+color: white;
+height: 150px;
+}
+.footer-top{
+margin-left: 170px;
+display: flex;
+flex-direction: row;
+}
+.footerLogo{
+margin-top: 30px;
+width: 150px;
+}
+.anchors{
+  margin-top: 30px;
+  margin-left: 780px;
+}
+a{
+  margin-left: 10px;
+}
+.footer-bottom{
+  margin-left: 170px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.footer-bottom button{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 0px solid;
+  margin-left: 10px;
+  font-size: 15px;
+}
+#footerAbout{
+  margin-left: -5px;
+}
+.footer-bottom p{
+  margin-left: 520px;
+  color: grey;
+}
+.footer-bottom button:hover{
+border-bottom: 1px solid white;
+color: rgb(232, 230, 247);
+}
+#seeAll:hover{
+background-color: black;
+color: white;
+transition: 0.1s ease-in-out;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+  .mob-img{
+    display: none;
+  }
+  .top-buttons button{
+  font-size: 25px;
+  left: 800px;
+  }
+  #careers{
+  margin-left: 80px;
+  }
+  #events{
+    margin-left: 175px;
+    }
+    #products{
+      margin-left: 260px;
+      }
+      #support{
+        margin-left: 365px;
+        }
+  .middle-text{
+  width: 600px;
+  top: 900px;
+  left: 650px;
+  }
+  .middle-text h1{
+    font-size: 44px;
+  }
+  .middle-text p{
+    font-size: 22px;
+  }
+  .footer-bottom button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0px solid;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  #footerAbout{
+    margin-left: -5px;
+  }
+  .footer-bottom p{
+    margin-left: 370px;
+    color: grey;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .mob-img{
+    display: block;
+  }  
+  .container{
+    width: 425px;  
+    margin: 0px;
+    overflow: hidden;
+  }
+  .top-bg{
+    display: none;
+  }
+  .top-bg-mob{
+    width: 425px;
+    position: relative;
+  }
+  .logo{
+    left: 20px;
+  }
+  .top-buttons button{
+  font-size: 40px;
+  top: 215px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  }
+  .top-buttons{
+    background-color: black;
+    position: absolute;
+    width: 425px;
+    height: 1426px;
+    display: none;
+  }
+  #careers{
+  margin-left: 0px;
+  margin-top: 80px;
+  }
+  #events{
+    margin-left: 0px;
+    margin-top:160px;
+    }
+    #products{
+      margin-left: 0px;
+      margin-top: 240px;
+      }
+      #support{
+        margin-left: 0px;
+        margin-top: 320px;
+        }
+  #hamburger{
+    position: absolute;
+    top: 55px;
+    left: 360px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  #x{
+    position: absolute;
+    top: 47px;
+    left: 363px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid;
+    display: none;
+  }
+  h2{
+    width: 385px;
+    font-size: 48px;
+    top: 250px;
+    left: 20px;
+    padding: 30px;
+  }
+  .wrapper-middle{
+    margin: 90px 20px 90px 20px;
+  }
+  .middle-bg {
+    display: none;
+  }
+  .middle-bg-mob {
+    display: block;
+    width: 385px;
+  }
+  .middle-text{
+  width: 385px;
+  padding: 20px;
+  top: 1180px;
+  left: 20px;
+  text-align: center;
+  }
+  .middle-text h1{
+    font-size: 40px;
+  }
+  .middle-text p{
+    font-size: 23px;
+  }
+  .our-creations{
+  margin: 480px 20px 50px 20px; 
+  display: flex;
+  flex-direction: column;
+  }
+  .our-creations h1{
+    font-size: 35px;
+  }
+  .creation-img{
+    width: 385px;
+  }
+  .our-creations button{
+  margin-left: 0px;
+  font-size: 18px;
+  margin-top: 1480px;
+  position: absolute;
+  }
+  .creations{
+    margin: 50px 20px 180px 20px; 
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 15px;
+  }
+  .creations img{
+  margin: -4px;  
+  }
+  .desk-img{
+    display: none;
+  }
+  .creations h3{
+    margin-top: -80px;
+    margin-left: 20px;
+  }
+  .earth h3{
+  width: 70px;
+  }
+  .arcade h3{
+    width: 70px;
+    }
+    .soccer h3{
+      width: 140px;
+      }
+      .grid h3{
+        width: 70px;
+        }
+        .above h3{
+          width: 160px;
+          }
+          .borealis h3{
+            width: 70px;
+            }
+            .curiosity h3{
+              width: 70px;
+              }
+              .fisheye h3{
+                width: 140px;
+                }
+  .shadow{
+    box-shadow: inset 0px -40px 40px 0px rgba(0, 0, 0, 0.774);
+    width: 387px;
+    height: 139px;
+    margin-top: 15px;
+    margin-left: -3px;
+  }
+  .footer{
+  width: 425px;
+  background-color: black;
+  color: white;
+  height: 450px;
+  }
+  .footer-top{
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .footerLogo{
+  margin-top: 50px;
+  width: 200px;
+  }
+  .anchors{
+    margin-top: 340px;
+    margin-left: 0px;
+    position: absolute;
+  }
+  a{
+    margin-left: 10px;
+  }
+  .footer-bottom{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-bottom button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0px solid;
+    margin-left: 0px;
+    font-size: 17px;
+    margin-top: 25px;
+  }
+  #footerAbout{
+    margin-left: -5px;
+  }
+  .footer-bottom p{
+    margin-left: 0px;
+    margin-top: 310px;
+    color: grey;
+    position: absolute;
+    font-size: 15px;
+  }
+  .footer-bottom button:hover{
+  border-bottom: 1px solid white;
+  }
+  
+  
+  
+  
+}
+
